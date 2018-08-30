@@ -1,6 +1,6 @@
 ---
 applications:
-- name: uniquename1
+- name: nodesample
+  host: uniquename1
   memory: 128M
   instances: 1
-  random-route: true
