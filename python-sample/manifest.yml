@@ -1,0 +1,6 @@
+applications:
+- name: uniquehost2
+  host: i0458251
+  path: .
+  memory: 128M
+  command: python server.py

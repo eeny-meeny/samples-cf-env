@@ -1,0 +1,8 @@
+applications:
+- name: gosample
+  host: uniquename3
+  path: .
+  memory: 128M
+  env:
+    GOPACKAGENAME: main
+  command: main

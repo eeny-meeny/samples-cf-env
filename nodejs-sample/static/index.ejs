@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title>Sample Application</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('/images/nodejs-new-pantone-black.png');
+    min-height: 100%;
+    background-position: bottom 50px right 100px;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-color: rgb(204,255,204);
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-black">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <h1 class="w3-jumbo w3-animate-top">Node.js</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <br class="w3-jumbo w3-animate-top">Application Name: <%= application_name %>
+    <br class="w3-jumbo w3-animate-top">Application URL: <%= app_uris %>
+    <br class="w3-jumbo w3-animate-top">Space Name: <%= app_space_name %>
+    <br class="w3-jumbo w3-animate-top">App memory limit: <%= app_mem_limits %>
+    <br class="w3-jumbo w3-animate-top">App disk limit: <%= app_disk_limits %>
+    <br>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">try out different buildpacks...</p>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://cloudplatform.sap.com" target="_blank">SAP Cloud Platform</a>
+  </div>
+</div>
+
+</body>
+</html>
