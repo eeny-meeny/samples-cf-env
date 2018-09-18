@@ -4,3 +4,4 @@ applications:
   host: uniquename1
   memory: 128M
   instances: 1
+  command: node server.js 
